@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Elevation Prediction</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Elevation over time with prediction</h1>
+      <img src="data:image/png;base64,{{ plot_url }}" alt="Elevation Plot">
+      <p>{{ prediction_text|safe }}</p>
+    </div>
+  </body>
+</html>
