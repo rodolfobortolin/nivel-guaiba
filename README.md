@@ -3,6 +3,8 @@
 
 This Flask application fetches water level data from the Guaíba River and predicts future elevations based on linear regression. The data is scraped from a specified URL and the application plots the actual and predicted water levels on a graph.
 
+Link: **[App in Heroku](https://elevation-predication-a3cc309a132f.herokuapp.com/)** (disabled)
+
 ## Features
 
 - Fetches the latest water level data from the specified URL.
